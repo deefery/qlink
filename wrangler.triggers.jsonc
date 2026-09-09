@@ -1,0 +1,6 @@
+// Apply domain and cron settings without requiring local build artifacts.
+{
+  "name": "qlink",
+  "routes": [{ "pattern": "q.zhijic.com", "custom_domain": true }],
+  "triggers": { "crons": ["0 0 * * *"] }
+}
